@@ -1,0 +1,85 @@
+body{
+    overflow-x: hidden;
+}
+form{
+    width: 30%;
+    padding: 50px;
+    background-color: rgb(198, 196, 196);
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+input[type="text"]{
+    width: 50%;
+    padding: 5px;
+   border-radius: 5px;
+    outline: none;
+    border: none;
+
+
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.card{
+    padding: 10px;
+    border: none;
+    background-color: rgb(198, 196, 196);
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.complatedCard{
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        margin-bottom: 20px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.complate{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(111, 212, 111);
+    border: none;
+    color: white;
+
+}
+.delete{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
